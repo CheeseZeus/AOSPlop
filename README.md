@@ -11,13 +11,13 @@ If it doesn't, sorry bro.
 
 ## Status
 
-**V6.** Currently plops 45 files across 8 upstream clusters:
+**V7.** Currently plops 57 files across 8 upstream clusters:
 
 - 19 × FFmpeg at `n8.0`
 - 10 × alsa-lib at `v1.2.14`
 - 8 × alsa-utils at `v1.2.14`
 - 3 × libyaml at `0.2.5`
-- 1 × libudev-zero at `master` (HEAD)
+- 13 × libudev-zero at `1.0.3` + `1.0.2` (mixed vendor-snapshot)
 - 1 × libdisplay-info at `main` (HEAD)
 - 1 × drm-hwcomposer at `main` (HEAD)
 - 3 × libcamera at `main` (HEAD, raspberrypi fork)

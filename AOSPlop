@@ -178,10 +178,61 @@ OUTTIES = [
         "path": "external/libyaml/configure.ac",
         "url": "https://raw.githubusercontent.com/yaml/libyaml/0.2.5/configure.ac",
     },
-    # libudev-zero · HEAD @ illiliti/libudev-zero · (b-vanilla)
+    # libudev-zero · pinned at illiliti/libudev-zero@1.0.3 (bulk) + 1.0.2 (2 straggler files)
+    # (b-vanilla) · 13 files · prior-arc Skop f-289 found 16/17 byte-identical to upstream
+    # (c)-modified udev_device.c skipped · owed hunk-attribute follow-up
     {
         "path": "external/libudev-zero/LICENSE",
-        "url": "https://raw.githubusercontent.com/illiliti/libudev-zero/master/LICENSE",
+        "url": "https://raw.githubusercontent.com/illiliti/libudev-zero/1.0.3/LICENSE",
+    },
+    {
+        "path": "external/libudev-zero/.gitignore",
+        "url": "https://raw.githubusercontent.com/illiliti/libudev-zero/1.0.3/.gitignore",
+    },
+    {
+        "path": "external/libudev-zero/README.md",
+        "url": "https://raw.githubusercontent.com/illiliti/libudev-zero/1.0.3/README.md",
+    },
+    {
+        "path": "external/libudev-zero/libudev.pc.in",
+        "url": "https://raw.githubusercontent.com/illiliti/libudev-zero/1.0.3/libudev.pc.in",
+    },
+    {
+        "path": "external/libudev-zero/contrib/helper.c",
+        "url": "https://raw.githubusercontent.com/illiliti/libudev-zero/1.0.3/contrib/helper.c",
+    },
+    {
+        "path": "external/libudev-zero/contrib/mdev.conf",
+        "url": "https://raw.githubusercontent.com/illiliti/libudev-zero/1.0.3/contrib/mdev.conf",
+    },
+    {
+        "path": "external/libudev-zero/udev.c",
+        "url": "https://raw.githubusercontent.com/illiliti/libudev-zero/1.0.3/udev.c",
+    },
+    {
+        "path": "external/libudev-zero/udev_enumerate.c",
+        "url": "https://raw.githubusercontent.com/illiliti/libudev-zero/1.0.3/udev_enumerate.c",
+    },
+    {
+        "path": "external/libudev-zero/udev_list.c",
+        "url": "https://raw.githubusercontent.com/illiliti/libudev-zero/1.0.3/udev_list.c",
+    },
+    {
+        "path": "external/libudev-zero/udev_monitor.c",
+        "url": "https://raw.githubusercontent.com/illiliti/libudev-zero/1.0.3/udev_monitor.c",
+    },
+    {
+        "path": "external/libudev-zero/udev_list.h",
+        "url": "https://raw.githubusercontent.com/illiliti/libudev-zero/1.0.3/udev_list.h",
+    },
+    # Two files pinned at 1.0.2 (not 1.0.3) · our tree is a mixed vendor-snapshot
+    {
+        "path": "external/libudev-zero/Makefile",
+        "url": "https://raw.githubusercontent.com/illiliti/libudev-zero/1.0.2/Makefile",
+    },
+    {
+        "path": "external/libudev-zero/udev.h",
+        "url": "https://raw.githubusercontent.com/illiliti/libudev-zero/1.0.2/udev.h",
     },
     # libdisplay-info · HEAD @ freedesktop.org/emersion/libdisplay-info · (b-vanilla)
     {
