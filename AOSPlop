@@ -122,6 +122,39 @@ OUTTIES = [
         "path": "external/libyaml/CMakeLists.txt",
         "url": "https://raw.githubusercontent.com/yaml/libyaml/0.2.5/CMakeLists.txt",
     },
+    # libudev-zero · HEAD @ illiliti/libudev-zero · (b-vanilla)
+    {
+        "path": "external/libudev-zero/LICENSE",
+        "url": "https://raw.githubusercontent.com/illiliti/libudev-zero/master/LICENSE",
+    },
+    # libpisp · HEAD @ raspberrypi/libpisp · (b-raspberrypi)
+    {
+        "path": "external/libpisp/LICENSE",
+        "url": "https://raw.githubusercontent.com/raspberrypi/libpisp/main/LICENSE",
+    },
+    # libdisplay-info · HEAD @ freedesktop.org/emersion/libdisplay-info · (b-vanilla)
+    {
+        "path": "external/libdisplay-info/LICENSE",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/main/LICENSE",
+    },
+    # drm_hwcomposer · HEAD @ freedesktop.org/drm-hwcomposer · (b-vanilla)
+    {
+        "path": "external/drm_hwcomposer/README.md",
+        "url": "https://gitlab.freedesktop.org/drm-hwcomposer/drm-hwcomposer/-/raw/main/README.md",
+    },
+    # libcamera · HEAD @ raspberrypi/libcamera · (b-raspberrypi)
+    {
+        "path": "external/libcamera/COPYING.rst",
+        "url": "https://raw.githubusercontent.com/raspberrypi/libcamera/main/COPYING.rst",
+    },
+    {
+        "path": "external/libcamera/LICENSES/BSD-3-Clause.txt",
+        "url": "https://raw.githubusercontent.com/raspberrypi/libcamera/main/LICENSES/BSD-3-Clause.txt",
+    },
+    {
+        "path": "external/libcamera/LICENSES/LGPL-2.1-or-later.txt",
+        "url": "https://raw.githubusercontent.com/raspberrypi/libcamera/main/LICENSES/LGPL-2.1-or-later.txt",
+    },
 ]
 
 

@@ -11,14 +11,17 @@ If it doesn't, sorry bro.
 
 ## Status
 
-**V4.** Currently plops 25 files across 4 upstream clusters:
+**V5.** Currently plops 32 files across 9 upstream clusters:
 
-- 15 × FFmpeg at `n8.0` (LICENSE, Changelog, Makefile, MAINTAINERS, .mailmap,
-  RELEASE, README, CONTRIBUTING, INSTALL, CREDITS, 4× COPYING variants)
-- 6 × alsa-lib at `v1.2.14` (COPYING, configure.ac, README, NOTES,
-  MEMORY-LEAK, TODO)
-- 3 × alsa-utils at `v1.2.14` (COPYING, configure.ac, TODO)
-- 2 × libyaml at `0.2.5` (License, CMakeLists.txt)
+- 15 × FFmpeg at `n8.0`
+- 6 × alsa-lib at `v1.2.14`
+- 3 × alsa-utils at `v1.2.14`
+- 2 × libyaml at `0.2.5`
+- 1 × libudev-zero at `master` (HEAD)
+- 1 × libpisp at `main` (HEAD)
+- 1 × libdisplay-info at `main` (HEAD)
+- 1 × drm-hwcomposer at `main` (HEAD)
+- 3 × libcamera at `main` (HEAD, raspberrypi fork)
 
 The rest of the tree is coming, one OUTTIE at a time. Each OUTTIE in our
 source tree needs its upstream chain closed on our end before we add it here.
