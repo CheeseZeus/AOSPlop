@@ -127,11 +127,6 @@ OUTTIES = [
         "path": "external/libudev-zero/LICENSE",
         "url": "https://raw.githubusercontent.com/illiliti/libudev-zero/master/LICENSE",
     },
-    # libpisp · HEAD @ raspberrypi/libpisp · (b-raspberrypi)
-    {
-        "path": "external/libpisp/LICENSE",
-        "url": "https://raw.githubusercontent.com/raspberrypi/libpisp/main/LICENSE",
-    },
     # libdisplay-info · HEAD @ freedesktop.org/emersion/libdisplay-info · (b-vanilla)
     {
         "path": "external/libdisplay-info/LICENSE",
