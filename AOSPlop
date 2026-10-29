@@ -235,10 +235,560 @@ OUTTIES = [
         "path": "external/libudev-zero/udev.h",
         "url": "https://raw.githubusercontent.com/illiliti/libudev-zero/1.0.2/udev.h",
     },
-    # libdisplay-info · HEAD @ freedesktop.org/emersion/libdisplay-info · (b-vanilla)
+    # libdisplay-info · pinned at emersion/libdisplay-info@0.2.0 (gitlab.fd.o)
+    # (b-vanilla) · 138 files · prior-arc Crepy f-473 D186 confirmed pin via
+    # METADATA commit=66b802d05b374cd8f388dc6ad1e7ae4f08cb3300
+    {
+        "path": "external/libdisplay-info/test/data/ayaneo-wxga.print",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/ayaneo-wxga.print",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/hp-5dq99aa-hdmi.diff",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/hp-5dq99aa-hdmi.diff",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/hp-5dq99aa-hdmi.print",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/hp-5dq99aa-hdmi.print",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/sun-gh19ps-dvi.edid",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/sun-gh19ps-dvi.edid",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/philips-ftv-490.print",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/philips-ftv-490.print",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/apple-xdr-dp.ref",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/apple-xdr-dp.ref",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/dell-2408wfp-dp.ref",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/dell-2408wfp-dp.ref",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/goldstar-ite6604-hdmi.diff",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/goldstar-ite6604-hdmi.diff",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/custom-uncommon-cta-vesa.print",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/custom-uncommon-cta-vesa.print",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/ayaneo-wxga.diff",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/ayaneo-wxga.diff",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/msi-mag321curv-dp.edid",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/msi-mag321curv-dp.edid",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/tcl-smart-tv-5655.ref",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/tcl-smart-tv-5655.ref",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/acer-p1276.print",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/acer-p1276.print",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/cta-vfpdb.diff",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/cta-vfpdb.diff",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/panasonic-mei96a2-dp.diff",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/panasonic-mei96a2-dp.diff",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/cta-vfpdb.ref",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/cta-vfpdb.ref",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/panasonic-mei96a2-dp.print",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/panasonic-mei96a2-dp.print",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/acer-p1276.diff",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/acer-p1276.diff",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/goldstar-e2441.print",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/goldstar-e2441.print",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/cta-vfpdb.print",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/cta-vfpdb.print",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/cta-timings.print",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/cta-timings.print",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/samsung-s27a950d-dp.print",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/samsung-s27a950d-dp.print",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/acer-p1276.ref",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/acer-p1276.ref",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/dell-2408wfp-dp.edid",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/dell-2408wfp-dp.edid",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/samsung-s27a950d-dp.diff",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/samsung-s27a950d-dp.diff",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/samsung-q800t-hdmi2.0.ref",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/samsung-q800t-hdmi2.0.ref",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/philips-ftv-490.ref",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/philips-ftv-490.ref",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/cvt.ref",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/cvt.ref",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/custom-uncommon-cta-vesa.edid",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/custom-uncommon-cta-vesa.edid",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/apple-xdr-dp.edid",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/apple-xdr-dp.edid",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/hitachi-55r6+.ref",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/hitachi-55r6+.ref",
+    },
+    {
+        "path": "external/libdisplay-info/include/libdisplay-info/displayid.h",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/include/libdisplay-info/displayid.h",
+    },
+    {
+        "path": "external/libdisplay-info/include/libdisplay-info/info.h",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/include/libdisplay-info/info.h",
+    },
+    {
+        "path": "external/libdisplay-info/include/libdisplay-info/cvt.h",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/include/libdisplay-info/cvt.h",
+    },
+    {
+        "path": "external/libdisplay-info/include/libdisplay-info/edid.h",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/include/libdisplay-info/edid.h",
+    },
+    {
+        "path": "external/libdisplay-info/include/libdisplay-info/cta.h",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/include/libdisplay-info/cta.h",
+    },
+    {
+        "path": "external/libdisplay-info/include/libdisplay-info/gtf.h",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/include/libdisplay-info/gtf.h",
+    },
+    {
+        "path": "external/libdisplay-info/include/libdisplay-info/dmt.h",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/include/libdisplay-info/dmt.h",
+    },
     {
         "path": "external/libdisplay-info/LICENSE",
-        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/main/LICENSE",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/LICENSE",
+    },
+    {
+        "path": "external/libdisplay-info/memory-stream.c",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/memory-stream.c",
+    },
+    {
+        "path": "external/libdisplay-info/gtf.c",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/gtf.c",
+    },
+    {
+        "path": "external/libdisplay-info/cta.c",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/cta.c",
+    },
+    {
+        "path": "external/libdisplay-info/meson.build",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/meson.build",
+    },
+    {
+        "path": "external/libdisplay-info/edid.c",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/edid.c",
+    },
+    {
+        "path": "external/libdisplay-info/.gitlab-ci.yml",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/.gitlab-ci.yml",
+    },
+    {
+        "path": "external/libdisplay-info/release.sh",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/release.sh",
+    },
+    {
+        "path": "external/libdisplay-info/releasing.md",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/releasing.md",
+    },
+    {
+        "path": "external/libdisplay-info/README.md",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/README.md",
+    },
+    {
+        "path": "external/libdisplay-info/.editorconfig",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/.editorconfig",
+    },
+    {
+        "path": "external/libdisplay-info/info.c",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/info.c",
+    },
+    {
+        "path": "external/libdisplay-info/libdisplay-info.map",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/libdisplay-info.map",
+    },
+    {
+        "path": "external/libdisplay-info/cvt.c",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/cvt.c",
+    },
+    {
+        "path": "external/libdisplay-info/dmt-table.c",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/dmt-table.c",
+    },
+    {
+        "path": "external/libdisplay-info/displayid.c",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/displayid.c",
+    },
+    {
+        "path": "external/libdisplay-info/cta-vic-table.c",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/cta-vic-table.c",
+    },
+    {
+        "path": "external/libdisplay-info/log.c",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/log.c",
+    },
+    {
+        "path": "external/libdisplay-info/gcovr.cfg",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/gcovr.cfg",
+    },
+    {
+        "path": "external/libdisplay-info/include/displayid.h",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/include/displayid.h",
+    },
+    {
+        "path": "external/libdisplay-info/include/log.h",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/include/log.h",
+    },
+    {
+        "path": "external/libdisplay-info/include/di-edid-decode.h",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/include/di-edid-decode.h",
+    },
+    {
+        "path": "external/libdisplay-info/include/info.h",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/include/info.h",
+    },
+    {
+        "path": "external/libdisplay-info/include/bits.h",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/include/bits.h",
+    },
+    {
+        "path": "external/libdisplay-info/include/memory-stream.h",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/include/memory-stream.h",
+    },
+    {
+        "path": "external/libdisplay-info/include/edid.h",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/include/edid.h",
+    },
+    {
+        "path": "external/libdisplay-info/include/cta.h",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/include/cta.h",
+    },
+    {
+        "path": "external/libdisplay-info/include/dmt.h",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/include/dmt.h",
+    },
+    {
+        "path": "external/libdisplay-info/subprojects/edid-decode.wrap",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/subprojects/edid-decode.wrap",
+    },
+    {
+        "path": "external/libdisplay-info/tool/gen-dmt.py",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/tool/gen-dmt.py",
+    },
+    {
+        "path": "external/libdisplay-info/tool/dump-i2c.sh",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/tool/dump-i2c.sh",
+    },
+    {
+        "path": "external/libdisplay-info/tool/gen-cta-vic.py",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/tool/gen-cta-vic.py",
+    },
+    {
+        "path": "external/libdisplay-info/tool/gen-search-table.py",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/tool/gen-search-table.py",
+    },
+    {
+        "path": "external/libdisplay-info/test/edid-decode-check.sh",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/edid-decode-check.sh",
+    },
+    {
+        "path": "external/libdisplay-info/test/edid-decode-diff.sh",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/edid-decode-diff.sh",
+    },
+    {
+        "path": "external/libdisplay-info/test/meson.build",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/meson.build",
+    },
+    {
+        "path": "external/libdisplay-info/test/di-edid-print.c",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/di-edid-print.c",
+    },
+    {
+        "path": "external/libdisplay-info/test/edid-print-check.sh",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/edid-print-check.sh",
+    },
+    {
+        "path": "external/libdisplay-info/di-edid-decode/main.c",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/di-edid-decode/main.c",
+    },
+    {
+        "path": "external/libdisplay-info/di-edid-decode/cta.c",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/di-edid-decode/cta.c",
+    },
+    {
+        "path": "external/libdisplay-info/di-edid-decode/meson.build",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/di-edid-decode/meson.build",
+    },
+    {
+        "path": "external/libdisplay-info/di-edid-decode/edid.c",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/di-edid-decode/edid.c",
+    },
+    {
+        "path": "external/libdisplay-info/di-edid-decode/displayid.c",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/di-edid-decode/displayid.c",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/sun-gh19ps-dvi.diff",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/sun-gh19ps-dvi.diff",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/hitachi-55r6+.print",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/hitachi-55r6+.print",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/hp-5dq99aa-hdmi.edid",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/hp-5dq99aa-hdmi.edid",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/custom-uncommon-cta-vesa.ref",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/custom-uncommon-cta-vesa.ref",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/qemu.edid",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/qemu.edid",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/goldstar-e2441.diff",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/goldstar-e2441.diff",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/acer-p1276.edid",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/acer-p1276.edid",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/viewsonic-vp2768-dp.diff",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/viewsonic-vp2768-dp.diff",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/samsung-s27a950d-dp.edid",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/samsung-s27a950d-dp.edid",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/qemu.ref",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/qemu.ref",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/hp-5dq99aa-hdmi.ref",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/hp-5dq99aa-hdmi.ref",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/cta-timings.diff",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/cta-timings.diff",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/msi-mag321curv-dp.ref",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/msi-mag321curv-dp.ref",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/custom-uncommon-cta-vesa.diff",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/custom-uncommon-cta-vesa.diff",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/sun-gh19ps-dvi.ref",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/sun-gh19ps-dvi.ref",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/sun-gh19ps-dvi.print",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/sun-gh19ps-dvi.print",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/samsung-q800t-hdmi2.0.print",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/samsung-q800t-hdmi2.0.print",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/qemu.diff",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/qemu.diff",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/apple-xdr-dp.diff",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/apple-xdr-dp.diff",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/msi-mag321curv-dp.diff",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/msi-mag321curv-dp.diff",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/ayaneo-wxga.edid",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/ayaneo-wxga.edid",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/hitachi-55r6+.edid",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/hitachi-55r6+.edid",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/cta-timings.ref",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/cta-timings.ref",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/philips-ftv-2017.ref",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/philips-ftv-2017.ref",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/viewsonic-vp2768-dp.ref",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/viewsonic-vp2768-dp.ref",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/cvt.print",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/cvt.print",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/tcl-smart-tv-5655.diff",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/tcl-smart-tv-5655.diff",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/panasonic-mei96a2-dp.edid",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/panasonic-mei96a2-dp.edid",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/philips-ftv-2017.edid",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/philips-ftv-2017.edid",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/goldstar-e2441.edid",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/goldstar-e2441.edid",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/tcl-smart-tv-5655.edid",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/tcl-smart-tv-5655.edid",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/philips-ftv-2017.print",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/philips-ftv-2017.print",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/goldstar-ite6604-hdmi.print",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/goldstar-ite6604-hdmi.print",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/goldstar-e2441.ref",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/goldstar-e2441.ref",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/hitachi-55r6+.diff",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/hitachi-55r6+.diff",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/samsung-q800t-hdmi2.0.diff",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/samsung-q800t-hdmi2.0.diff",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/viewsonic-vp2768-dp.edid",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/viewsonic-vp2768-dp.edid",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/cta-vfpdb.edid",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/cta-vfpdb.edid",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/samsung-s27a950d-dp.ref",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/samsung-s27a950d-dp.ref",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/samsung-q800t-hdmi2.0.edid",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/samsung-q800t-hdmi2.0.edid",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/goldstar-ite6604-hdmi.ref",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/goldstar-ite6604-hdmi.ref",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/goldstar-ite6604-hdmi.edid",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/goldstar-ite6604-hdmi.edid",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/apple-xdr-dp.print",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/apple-xdr-dp.print",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/README.md",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/README.md",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/cta-timings.edid",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/cta-timings.edid",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/philips-ftv-490.edid",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/philips-ftv-490.edid",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/LICENSE.CC-BY-4.0",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/LICENSE.CC-BY-4.0",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/dell-2408wfp-dp.print",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/dell-2408wfp-dp.print",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/qemu.print",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/qemu.print",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/tcl-smart-tv-5655.print",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/tcl-smart-tv-5655.print",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/ayaneo-wxga.ref",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/ayaneo-wxga.ref",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/panasonic-mei96a2-dp.ref",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/panasonic-mei96a2-dp.ref",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/cvt.edid",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/cvt.edid",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/philips-ftv-2017.diff",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/philips-ftv-2017.diff",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/viewsonic-vp2768-dp.print",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/viewsonic-vp2768-dp.print",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/msi-mag321curv-dp.print",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/msi-mag321curv-dp.print",
+    },
+    {
+        "path": "external/libdisplay-info/test/data/philips-ftv-490.diff",
+        "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/philips-ftv-490.diff",
     },
     # drm_hwcomposer · HEAD @ freedesktop.org/drm-hwcomposer · (b-vanilla)
     {
