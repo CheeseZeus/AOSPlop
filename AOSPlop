@@ -4,6 +4,7 @@
 #
 # (Pupperkinso f-472 SV LLF-D1 D186 · inaugural)
 
+import base64
 import os
 import sys
 import urllib.request
@@ -287,14 +288,27 @@ OUTTIES = [
         "path": "external/libcamera/Documentation/getting-started.rst",
         "url": "https://raw.githubusercontent.com/raspberrypi/libcamera/v0.7.2/Documentation/getting-started.rst",
     },
+    # libyuv_chromium · HEAD @ chromium.googlesource.com/libyuv/libyuv
+    # Chromium monotonic version 1788 (our tree) · commit-pin bisect blocked
+    # by gitiles +log 401-auth-wall · LICENSE stable across versions so safe at HEAD.
+    # Base64-decode via ?format=TEXT works · residual files need commit-pin research.
+    {
+        "path": "external/libyuv_chromium/LICENSE",
+        "url": "https://chromium.googlesource.com/libyuv/libyuv/+/HEAD/LICENSE?format=TEXT",
+        "base64": True,
+    },
 ]
 
 
 def plop(outtie):
     print(f"plop: fetching  {outtie['url']}")
     os.makedirs(os.path.dirname(outtie["path"]) or ".", exist_ok=True)
-    with urllib.request.urlopen(outtie["url"]) as r, open(outtie["path"], "wb") as f:
-        f.write(r.read())
+    with urllib.request.urlopen(outtie["url"]) as r:
+        body = r.read()
+    if outtie.get("base64"):
+        body = base64.b64decode(body)
+    with open(outtie["path"], "wb") as f:
+        f.write(body)
     size = os.path.getsize(outtie["path"])
     print(f"plop: wrote     {outtie['path']}  ({size} bytes)")
 
