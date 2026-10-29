@@ -11,13 +11,21 @@ If it doesn't, sorry bro.
 
 ## Status
 
-**V2.** Currently plops 5 files, all FFmpeg sentinels at upstream tag `n8.0`:
+**V3.** Currently plops 8 files across 4 upstream clusters:
 
+FFmpeg at `n8.0`:
 - `external/ffmpeg/LICENSE.md`
 - `external/ffmpeg/Changelog`
 - `external/ffmpeg/Makefile`
 - `external/ffmpeg/MAINTAINERS`
 - `external/ffmpeg/.mailmap`
+
+alsa-project at `v1.2.14`:
+- `external/alsa-lib/COPYING`
+- `external/alsa-utils/COPYING`
+
+yaml/libyaml at `0.2.5`:
+- `external/libyaml/License`
 
 The rest of the tree is coming, one OUTTIE at a time. Each OUTTIE in our
 source tree needs its upstream chain closed on our end before we add it here.

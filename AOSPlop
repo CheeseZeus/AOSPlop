@@ -38,6 +38,22 @@ OUTTIES = [
         "path": "external/ffmpeg/.mailmap",
         "url": "https://raw.githubusercontent.com/FFmpeg/FFmpeg/n8.0/.mailmap",
     },
+    # alsa-lib + alsa-utils · v1.2.14 · (b-vanilla) · byte-verified
+    # during D186 Pupperkinso alsa bulk inch #5 (680-file sweep).
+    {
+        "path": "external/alsa-lib/COPYING",
+        "url": "https://raw.githubusercontent.com/alsa-project/alsa-lib/v1.2.14/COPYING",
+    },
+    {
+        "path": "external/alsa-utils/COPYING",
+        "url": "https://raw.githubusercontent.com/alsa-project/alsa-utils/v1.2.14/COPYING",
+    },
+    # libyaml · 0.2.5 · (b-vanilla) · byte-verified during D186
+    # Pupperkinso libyaml bulk inch #6 (58-file sweep).
+    {
+        "path": "external/libyaml/License",
+        "url": "https://raw.githubusercontent.com/yaml/libyaml/0.2.5/License",
+    },
 ]
 
 
