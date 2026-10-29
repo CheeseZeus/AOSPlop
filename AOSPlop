@@ -244,18 +244,48 @@ OUTTIES = [
         "path": "external/drm_hwcomposer/README.md",
         "url": "https://gitlab.freedesktop.org/drm-hwcomposer/drm-hwcomposer/-/raw/main/README.md",
     },
-    # libcamera · HEAD @ raspberrypi/libcamera · (b-raspberrypi)
+    # libcamera · pinned at raspberrypi/libcamera@v0.7.2 · (b-raspberrypi)
+    # Prior-arc Grixo f-470 D186 bulk-cleared ~1,000+ libcamera files; this cluster
+    # extends her chain. V8 adds LICENSES-family + dotfiles + Documentation sentinel.
     {
         "path": "external/libcamera/COPYING.rst",
-        "url": "https://raw.githubusercontent.com/raspberrypi/libcamera/main/COPYING.rst",
+        "url": "https://raw.githubusercontent.com/raspberrypi/libcamera/v0.7.2/COPYING.rst",
+    },
+    {
+        "path": "external/libcamera/.gitignore",
+        "url": "https://raw.githubusercontent.com/raspberrypi/libcamera/v0.7.2/.gitignore",
+    },
+    {
+        "path": "external/libcamera/.editorconfig",
+        "url": "https://raw.githubusercontent.com/raspberrypi/libcamera/v0.7.2/.editorconfig",
     },
     {
         "path": "external/libcamera/LICENSES/BSD-3-Clause.txt",
-        "url": "https://raw.githubusercontent.com/raspberrypi/libcamera/main/LICENSES/BSD-3-Clause.txt",
+        "url": "https://raw.githubusercontent.com/raspberrypi/libcamera/v0.7.2/LICENSES/BSD-3-Clause.txt",
     },
     {
         "path": "external/libcamera/LICENSES/LGPL-2.1-or-later.txt",
-        "url": "https://raw.githubusercontent.com/raspberrypi/libcamera/main/LICENSES/LGPL-2.1-or-later.txt",
+        "url": "https://raw.githubusercontent.com/raspberrypi/libcamera/v0.7.2/LICENSES/LGPL-2.1-or-later.txt",
+    },
+    {
+        "path": "external/libcamera/LICENSES/CC0-1.0.txt",
+        "url": "https://raw.githubusercontent.com/raspberrypi/libcamera/v0.7.2/LICENSES/CC0-1.0.txt",
+    },
+    {
+        "path": "external/libcamera/LICENSES/CC-BY-SA-4.0.txt",
+        "url": "https://raw.githubusercontent.com/raspberrypi/libcamera/v0.7.2/LICENSES/CC-BY-SA-4.0.txt",
+    },
+    {
+        "path": "external/libcamera/LICENSES/GPL-2.0-only.txt",
+        "url": "https://raw.githubusercontent.com/raspberrypi/libcamera/v0.7.2/LICENSES/GPL-2.0-only.txt",
+    },
+    {
+        "path": "external/libcamera/LICENSES/GPL-2.0-or-later.txt",
+        "url": "https://raw.githubusercontent.com/raspberrypi/libcamera/v0.7.2/LICENSES/GPL-2.0-or-later.txt",
+    },
+    {
+        "path": "external/libcamera/Documentation/getting-started.rst",
+        "url": "https://raw.githubusercontent.com/raspberrypi/libcamera/v0.7.2/Documentation/getting-started.rst",
     },
 ]
 

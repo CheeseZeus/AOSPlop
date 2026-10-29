@@ -11,7 +11,7 @@ If it doesn't, sorry bro.
 
 ## Status
 
-**V7.** Currently plops 57 files across 8 upstream clusters:
+**V8.** Currently plops 64 files across 8 upstream clusters:
 
 - 19 × FFmpeg at `n8.0`
 - 10 × alsa-lib at `v1.2.14`
@@ -20,7 +20,7 @@ If it doesn't, sorry bro.
 - 13 × libudev-zero at `1.0.3` + `1.0.2` (mixed vendor-snapshot)
 - 1 × libdisplay-info at `main` (HEAD)
 - 1 × drm-hwcomposer at `main` (HEAD)
-- 3 × libcamera at `main` (HEAD, raspberrypi fork)
+- 10 × libcamera at `v0.7.2` (raspberrypi fork)
 
 The rest of the tree is coming, one OUTTIE at a time. Each OUTTIE in our
 source tree needs its upstream chain closed on our end before we add it here.
