@@ -9,11 +9,34 @@ import sys
 import urllib.request
 
 # Each OUTTIE: path we write to, URL we fetch from.
-# V1 ships exactly one. More will be added as the clean-license-audit resolves.
+# Grows one at a time as the clean-license-audit resolves OUTTIEs on our end.
+#
+# TODO: scaffolding step. Before fetching any OUTTIE, run Google's `repo` tool
+# to download the virgin-mary AOSP tree (android-15, revision 20). Each OUTTIE
+# then overlays onto that scaffold. Deferred for now because full AOSP sync is
+# a long download during iterative testing.
 OUTTIES = [
+    # FFmpeg · n8.0 · (b-vanilla) UPSTREAM-DIRECT · byte-verified during
+    # D186 Pupperkinso FFmpeg bulk inch #2 (9,754-file sweep).
     {
         "path": "external/ffmpeg/LICENSE.md",
         "url": "https://raw.githubusercontent.com/FFmpeg/FFmpeg/n8.0/LICENSE.md",
+    },
+    {
+        "path": "external/ffmpeg/Changelog",
+        "url": "https://raw.githubusercontent.com/FFmpeg/FFmpeg/n8.0/Changelog",
+    },
+    {
+        "path": "external/ffmpeg/Makefile",
+        "url": "https://raw.githubusercontent.com/FFmpeg/FFmpeg/n8.0/Makefile",
+    },
+    {
+        "path": "external/ffmpeg/MAINTAINERS",
+        "url": "https://raw.githubusercontent.com/FFmpeg/FFmpeg/n8.0/MAINTAINERS",
+    },
+    {
+        "path": "external/ffmpeg/.mailmap",
+        "url": "https://raw.githubusercontent.com/FFmpeg/FFmpeg/n8.0/.mailmap",
     },
 ]
 

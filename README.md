@@ -11,11 +11,22 @@ If it doesn't, sorry bro.
 
 ## Status
 
-**V1.** Currently plops exactly ONE file (`external/ffmpeg/LICENSE.md`).
+**V2.** Currently plops 5 files, all FFmpeg sentinels at upstream tag `n8.0`:
 
-The rest of the tree is coming. Each OUTTIE in our source tree needs its
-upstream chain closed on our end before we add it here. See the
-clean-license-audit arc.
+- `external/ffmpeg/LICENSE.md`
+- `external/ffmpeg/Changelog`
+- `external/ffmpeg/Makefile`
+- `external/ffmpeg/MAINTAINERS`
+- `external/ffmpeg/.mailmap`
+
+The rest of the tree is coming, one OUTTIE at a time. Each OUTTIE in our
+source tree needs its upstream chain closed on our end before we add it here.
+Low-hanging fruit (byte-perfect-and-fetchable sentinels) ships first; bulk
+clusters come later.
+
+Also planned: a one-time `repo` scaffolding step that pulls the virgin-mary
+AOSP tree (android-15 rev 20) before overlaying our OUTTIEs. Deferred until
+the OUTTIE list is thick enough to be worth it.
 
 ## Scope
 
