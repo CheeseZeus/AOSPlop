@@ -791,9 +791,76 @@ OUTTIES = [
         "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/raw/0.2.0/test/data/philips-ftv-490.diff",
     },
     # drm_hwcomposer · HEAD @ freedesktop.org/drm-hwcomposer · (b-vanilla)
+    # Our tree is pre-vendor-snapshot · 17 stable files match HEAD (CI scripts,
+    # license markers, test headers). Source files drifted · need commit-pin bisect
+    # as follow-up for the 115 upstream-modified residuals.
     {
         "path": "external/drm_hwcomposer/README.md",
         "url": "https://gitlab.freedesktop.org/drm-hwcomposer/drm-hwcomposer/-/raw/main/README.md",
+    },
+    {
+        "path": "external/drm_hwcomposer/.ci/android/android-vts.sh",
+        "url": "https://gitlab.freedesktop.org/drm-hwcomposer/drm-hwcomposer/-/raw/main/.ci/android/android-vts.sh",
+    },
+    {
+        "path": "external/drm_hwcomposer/.ci/android/headless.sh",
+        "url": "https://gitlab.freedesktop.org/drm-hwcomposer/drm-hwcomposer/-/raw/main/.ci/android/headless.sh",
+    },
+    {
+        "path": "external/drm_hwcomposer/.ci/android/writeback.sh",
+        "url": "https://gitlab.freedesktop.org/drm-hwcomposer/drm-hwcomposer/-/raw/main/.ci/android/writeback.sh",
+    },
+    {
+        "path": "external/drm_hwcomposer/.ci/build-x86_64.sh",
+        "url": "https://gitlab.freedesktop.org/drm-hwcomposer/drm-hwcomposer/-/raw/main/.ci/build-x86_64.sh",
+    },
+    {
+        "path": "external/drm_hwcomposer/.clang-format",
+        "url": "https://gitlab.freedesktop.org/drm-hwcomposer/drm-hwcomposer/-/raw/main/.clang-format",
+    },
+    {
+        "path": "external/drm_hwcomposer/hwc3/hwc3-apex-file-contexts",
+        "url": "https://gitlab.freedesktop.org/drm-hwcomposer/drm-hwcomposer/-/raw/main/hwc3/hwc3-apex-file-contexts",
+    },
+    {
+        "path": "external/drm_hwcomposer/hwc3/hwc3-apex-manifest.json",
+        "url": "https://gitlab.freedesktop.org/drm-hwcomposer/drm-hwcomposer/-/raw/main/hwc3/hwc3-apex-manifest.json",
+    },
+    {
+        "path": "external/drm_hwcomposer/MODULE_LICENSE_APACHE2",
+        "url": "https://gitlab.freedesktop.org/drm-hwcomposer/drm-hwcomposer/-/raw/main/MODULE_LICENSE_APACHE2",
+    },
+    {
+        "path": "external/drm_hwcomposer/NOTICE",
+        "url": "https://gitlab.freedesktop.org/drm-hwcomposer/drm-hwcomposer/-/raw/main/NOTICE",
+    },
+    {
+        "path": "external/drm_hwcomposer/tests/Android.bp",
+        "url": "https://gitlab.freedesktop.org/drm-hwcomposer/drm-hwcomposer/-/raw/main/tests/Android.bp",
+    },
+    {
+        "path": "external/drm_hwcomposer/tests/test_include/gralloc_helper.h",
+        "url": "https://gitlab.freedesktop.org/drm-hwcomposer/drm-hwcomposer/-/raw/main/tests/test_include/gralloc_helper.h",
+    },
+    {
+        "path": "external/drm_hwcomposer/tests/test_include/img_gralloc1_public.h",
+        "url": "https://gitlab.freedesktop.org/drm-hwcomposer/drm-hwcomposer/-/raw/main/tests/test_include/img_gralloc1_public.h",
+    },
+    {
+        "path": "external/drm_hwcomposer/tests/test_include/mali_gralloc_buffer.h",
+        "url": "https://gitlab.freedesktop.org/drm-hwcomposer/drm-hwcomposer/-/raw/main/tests/test_include/mali_gralloc_buffer.h",
+    },
+    {
+        "path": "external/drm_hwcomposer/tests/test_include/mali_gralloc_formats.h",
+        "url": "https://gitlab.freedesktop.org/drm-hwcomposer/drm-hwcomposer/-/raw/main/tests/test_include/mali_gralloc_formats.h",
+    },
+    {
+        "path": "external/drm_hwcomposer/tests/test_include/mali_gralloc_private_interface_types.h",
+        "url": "https://gitlab.freedesktop.org/drm-hwcomposer/drm-hwcomposer/-/raw/main/tests/test_include/mali_gralloc_private_interface_types.h",
+    },
+    {
+        "path": "external/drm_hwcomposer/tests/test_include/mali_gralloc_usages.h",
+        "url": "https://gitlab.freedesktop.org/drm-hwcomposer/drm-hwcomposer/-/raw/main/tests/test_include/mali_gralloc_usages.h",
     },
     # libcamera · pinned at raspberrypi/libcamera@v0.7.2 · (b-raspberrypi)
     # Prior-arc Grixo f-470 D186 bulk-cleared ~1,000+ libcamera files; this cluster

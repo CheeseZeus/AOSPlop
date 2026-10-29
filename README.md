@@ -11,15 +11,15 @@ If it doesn't, sorry bro.
 
 ## Status
 
-**V10.** Currently plops 202 files across 9 upstream clusters:
+**V11.** Currently plops 218 files across 9 upstream clusters:
 
 - 19 × FFmpeg at `n8.0`
 - 10 × alsa-lib at `v1.2.14`
 - 8 × alsa-utils at `v1.2.14`
 - 3 × libyaml at `0.2.5`
 - 13 × libudev-zero at `1.0.3` + `1.0.2` (mixed vendor-snapshot)
-- **138 × libdisplay-info at `0.2.0`** (gitlab.freedesktop.org/emersion)
-- 1 × drm-hwcomposer at `main` (HEAD)
+- 138 × libdisplay-info at `0.2.0` (gitlab.freedesktop.org/emersion)
+- 17 × drm-hwcomposer at `main` (HEAD, CI/license/test-headers only)
 - 10 × libcamera at `v0.7.2` (raspberrypi fork)
 - 1 × libyuv_chromium at `HEAD` (chromium.googlesource · base64-decoded)
 
