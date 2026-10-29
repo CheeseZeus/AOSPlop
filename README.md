@@ -11,21 +11,14 @@ If it doesn't, sorry bro.
 
 ## Status
 
-**V3.** Currently plops 8 files across 4 upstream clusters:
+**V4.** Currently plops 25 files across 4 upstream clusters:
 
-FFmpeg at `n8.0`:
-- `external/ffmpeg/LICENSE.md`
-- `external/ffmpeg/Changelog`
-- `external/ffmpeg/Makefile`
-- `external/ffmpeg/MAINTAINERS`
-- `external/ffmpeg/.mailmap`
-
-alsa-project at `v1.2.14`:
-- `external/alsa-lib/COPYING`
-- `external/alsa-utils/COPYING`
-
-yaml/libyaml at `0.2.5`:
-- `external/libyaml/License`
+- 15 × FFmpeg at `n8.0` (LICENSE, Changelog, Makefile, MAINTAINERS, .mailmap,
+  RELEASE, README, CONTRIBUTING, INSTALL, CREDITS, 4× COPYING variants)
+- 6 × alsa-lib at `v1.2.14` (COPYING, configure.ac, README, NOTES,
+  MEMORY-LEAK, TODO)
+- 3 × alsa-utils at `v1.2.14` (COPYING, configure.ac, TODO)
+- 2 × libyaml at `0.2.5` (License, CMakeLists.txt)
 
 The rest of the tree is coming, one OUTTIE at a time. Each OUTTIE in our
 source tree needs its upstream chain closed on our end before we add it here.

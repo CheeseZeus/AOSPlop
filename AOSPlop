@@ -38,6 +38,42 @@ OUTTIES = [
         "path": "external/ffmpeg/.mailmap",
         "url": "https://raw.githubusercontent.com/FFmpeg/FFmpeg/n8.0/.mailmap",
     },
+    {
+        "path": "external/ffmpeg/RELEASE",
+        "url": "https://raw.githubusercontent.com/FFmpeg/FFmpeg/n8.0/RELEASE",
+    },
+    {
+        "path": "external/ffmpeg/README.md",
+        "url": "https://raw.githubusercontent.com/FFmpeg/FFmpeg/n8.0/README.md",
+    },
+    {
+        "path": "external/ffmpeg/CONTRIBUTING.md",
+        "url": "https://raw.githubusercontent.com/FFmpeg/FFmpeg/n8.0/CONTRIBUTING.md",
+    },
+    {
+        "path": "external/ffmpeg/INSTALL.md",
+        "url": "https://raw.githubusercontent.com/FFmpeg/FFmpeg/n8.0/INSTALL.md",
+    },
+    {
+        "path": "external/ffmpeg/CREDITS",
+        "url": "https://raw.githubusercontent.com/FFmpeg/FFmpeg/n8.0/CREDITS",
+    },
+    {
+        "path": "external/ffmpeg/COPYING.GPLv2",
+        "url": "https://raw.githubusercontent.com/FFmpeg/FFmpeg/n8.0/COPYING.GPLv2",
+    },
+    {
+        "path": "external/ffmpeg/COPYING.GPLv3",
+        "url": "https://raw.githubusercontent.com/FFmpeg/FFmpeg/n8.0/COPYING.GPLv3",
+    },
+    {
+        "path": "external/ffmpeg/COPYING.LGPLv2.1",
+        "url": "https://raw.githubusercontent.com/FFmpeg/FFmpeg/n8.0/COPYING.LGPLv2.1",
+    },
+    {
+        "path": "external/ffmpeg/COPYING.LGPLv3",
+        "url": "https://raw.githubusercontent.com/FFmpeg/FFmpeg/n8.0/COPYING.LGPLv3",
+    },
     # alsa-lib + alsa-utils · v1.2.14 · (b-vanilla) · byte-verified
     # during D186 Pupperkinso alsa bulk inch #5 (680-file sweep).
     {
@@ -45,14 +81,46 @@ OUTTIES = [
         "url": "https://raw.githubusercontent.com/alsa-project/alsa-lib/v1.2.14/COPYING",
     },
     {
+        "path": "external/alsa-lib/configure.ac",
+        "url": "https://raw.githubusercontent.com/alsa-project/alsa-lib/v1.2.14/configure.ac",
+    },
+    {
+        "path": "external/alsa-lib/README.md",
+        "url": "https://raw.githubusercontent.com/alsa-project/alsa-lib/v1.2.14/README.md",
+    },
+    {
+        "path": "external/alsa-lib/NOTES",
+        "url": "https://raw.githubusercontent.com/alsa-project/alsa-lib/v1.2.14/NOTES",
+    },
+    {
+        "path": "external/alsa-lib/MEMORY-LEAK",
+        "url": "https://raw.githubusercontent.com/alsa-project/alsa-lib/v1.2.14/MEMORY-LEAK",
+    },
+    {
+        "path": "external/alsa-lib/TODO",
+        "url": "https://raw.githubusercontent.com/alsa-project/alsa-lib/v1.2.14/TODO",
+    },
+    {
         "path": "external/alsa-utils/COPYING",
         "url": "https://raw.githubusercontent.com/alsa-project/alsa-utils/v1.2.14/COPYING",
+    },
+    {
+        "path": "external/alsa-utils/configure.ac",
+        "url": "https://raw.githubusercontent.com/alsa-project/alsa-utils/v1.2.14/configure.ac",
+    },
+    {
+        "path": "external/alsa-utils/TODO",
+        "url": "https://raw.githubusercontent.com/alsa-project/alsa-utils/v1.2.14/TODO",
     },
     # libyaml · 0.2.5 · (b-vanilla) · byte-verified during D186
     # Pupperkinso libyaml bulk inch #6 (58-file sweep).
     {
         "path": "external/libyaml/License",
         "url": "https://raw.githubusercontent.com/yaml/libyaml/0.2.5/License",
+    },
+    {
+        "path": "external/libyaml/CMakeLists.txt",
+        "url": "https://raw.githubusercontent.com/yaml/libyaml/0.2.5/CMakeLists.txt",
     },
 ]
 
