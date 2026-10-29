@@ -1,0 +1,15 @@
+# The materialized tree lands at ./external/ ./device/ etc. when AOSPlop runs.
+# We don't commit the output.
+external/
+device/
+vendor/
+build/
+frameworks/
+packages/
+prebuilts/
+system/
+tools/
+
+# Python
+__pycache__/
+*.pyc
