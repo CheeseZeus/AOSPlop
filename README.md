@@ -11,12 +11,12 @@ If it doesn't, sorry bro.
 
 ## Status
 
-**V5.** Currently plops 31 files across 8 upstream clusters:
+**V6.** Currently plops 45 files across 8 upstream clusters:
 
-- 15 × FFmpeg at `n8.0`
-- 6 × alsa-lib at `v1.2.14`
-- 3 × alsa-utils at `v1.2.14`
-- 2 × libyaml at `0.2.5`
+- 19 × FFmpeg at `n8.0`
+- 10 × alsa-lib at `v1.2.14`
+- 8 × alsa-utils at `v1.2.14`
+- 3 × libyaml at `0.2.5`
 - 1 × libudev-zero at `master` (HEAD)
 - 1 × libdisplay-info at `main` (HEAD)
 - 1 × drm-hwcomposer at `main` (HEAD)

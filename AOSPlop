@@ -74,6 +74,22 @@ OUTTIES = [
         "path": "external/ffmpeg/COPYING.LGPLv3",
         "url": "https://raw.githubusercontent.com/FFmpeg/FFmpeg/n8.0/COPYING.LGPLv3",
     },
+    {
+        "path": "external/ffmpeg/doc/doxy-wrapper.sh",
+        "url": "https://raw.githubusercontent.com/FFmpeg/FFmpeg/n8.0/doc/doxy-wrapper.sh",
+    },
+    {
+        "path": "external/ffmpeg/ffbuild/arch.mak",
+        "url": "https://raw.githubusercontent.com/FFmpeg/FFmpeg/n8.0/ffbuild/arch.mak",
+    },
+    {
+        "path": "external/ffmpeg/ffbuild/library.mak",
+        "url": "https://raw.githubusercontent.com/FFmpeg/FFmpeg/n8.0/ffbuild/library.mak",
+    },
+    {
+        "path": "external/ffmpeg/ffbuild/version.sh",
+        "url": "https://raw.githubusercontent.com/FFmpeg/FFmpeg/n8.0/ffbuild/version.sh",
+    },
     # alsa-lib + alsa-utils · v1.2.14 · (b-vanilla) · byte-verified
     # during D186 Pupperkinso alsa bulk inch #5 (680-file sweep).
     {
@@ -101,6 +117,22 @@ OUTTIES = [
         "url": "https://raw.githubusercontent.com/alsa-project/alsa-lib/v1.2.14/TODO",
     },
     {
+        "path": "external/alsa-lib/ChangeLog",
+        "url": "https://raw.githubusercontent.com/alsa-project/alsa-lib/v1.2.14/ChangeLog",
+    },
+    {
+        "path": "external/alsa-lib/INSTALL",
+        "url": "https://raw.githubusercontent.com/alsa-project/alsa-lib/v1.2.14/INSTALL",
+    },
+    {
+        "path": "external/alsa-lib/Makefile.am",
+        "url": "https://raw.githubusercontent.com/alsa-project/alsa-lib/v1.2.14/Makefile.am",
+    },
+    {
+        "path": "external/alsa-lib/gitcompile",
+        "url": "https://raw.githubusercontent.com/alsa-project/alsa-lib/v1.2.14/gitcompile",
+    },
+    {
         "path": "external/alsa-utils/COPYING",
         "url": "https://raw.githubusercontent.com/alsa-project/alsa-utils/v1.2.14/COPYING",
     },
@@ -112,6 +144,26 @@ OUTTIES = [
         "path": "external/alsa-utils/TODO",
         "url": "https://raw.githubusercontent.com/alsa-project/alsa-utils/v1.2.14/TODO",
     },
+    {
+        "path": "external/alsa-utils/README.md",
+        "url": "https://raw.githubusercontent.com/alsa-project/alsa-utils/v1.2.14/README.md",
+    },
+    {
+        "path": "external/alsa-utils/ChangeLog",
+        "url": "https://raw.githubusercontent.com/alsa-project/alsa-utils/v1.2.14/ChangeLog",
+    },
+    {
+        "path": "external/alsa-utils/INSTALL",
+        "url": "https://raw.githubusercontent.com/alsa-project/alsa-utils/v1.2.14/INSTALL",
+    },
+    {
+        "path": "external/alsa-utils/Makefile.am",
+        "url": "https://raw.githubusercontent.com/alsa-project/alsa-utils/v1.2.14/Makefile.am",
+    },
+    {
+        "path": "external/alsa-utils/gitcompile",
+        "url": "https://raw.githubusercontent.com/alsa-project/alsa-utils/v1.2.14/gitcompile",
+    },
     # libyaml · 0.2.5 · (b-vanilla) · byte-verified during D186
     # Pupperkinso libyaml bulk inch #6 (58-file sweep).
     {
@@ -121,6 +173,10 @@ OUTTIES = [
     {
         "path": "external/libyaml/CMakeLists.txt",
         "url": "https://raw.githubusercontent.com/yaml/libyaml/0.2.5/CMakeLists.txt",
+    },
+    {
+        "path": "external/libyaml/configure.ac",
+        "url": "https://raw.githubusercontent.com/yaml/libyaml/0.2.5/configure.ac",
     },
     # libudev-zero · HEAD @ illiliti/libudev-zero · (b-vanilla)
     {
